@@ -1,4 +1,4 @@
-package ch.bbw.zork;
+package ch.bbw.zork.entity;
 
 public class Item {
 
