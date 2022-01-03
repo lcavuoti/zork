@@ -1,12 +1,11 @@
 package ch.bbw.zork.entity;
 
 public class Item {
-
     private String name;
-    private int value;
-    private int weight;
+    private double value;
+    private double weight;
 
-    public Item(String name, int value, int weight) {
+    public Item(String name, double value, double weight) {
         this.name = name;
         this.value = value;
         this.weight = weight;
@@ -20,19 +19,19 @@ public class Item {
         this.name = name;
     }
 
-    public int getValue() {
+    public double getValue() {
         return value;
     }
 
-    public void setValue(int value) {
+    public void setValue(double value) {
         this.value = value;
     }
 
-    public int getWeight() {
+    public double getWeight() {
         return weight;
     }
 
-    public void setWeight(int weight) {
+    public void setWeight(double weight) {
         this.weight = weight;
     }
 }
